@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 1600px;
+    width: 1000px;
+    border: 3px solid black;
+    margin: 100px;
+    margin-left: 580px;
+    background-color: rgb(186, 228, 214);
+}
+
+.content{
+    height: 1500px;
+    width: 940px;
+    background-color: rgb(250, 242, 242);
+    margin-top: 45px;
+    margin-left: 30px;
+}
+
+.content h1{
+    margin-top: 40px;
+    padding: 10px;
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 20px;
+  /*  background-color: green; */
+}
+.paragraph{
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.sci{
+    height: 50px;
+    width: 650px;
+    font-size: 30px;
+    margin-left: 50px;
+    border-radius: 5px;
+    color: red;
+    border: 4px solid pink;
+    
+}
+
+.size{
+    margin-left: 200px;
+    font-size: 60px;
+    font-style: italic;
+}
+
+.his{
+    height: 50px;
+    width: 650px;
+    font-size: 30px;
+    margin-left: 140px;
+    border-radius: 5px;
+    color: red;
+    border: 4px solid pink;
+}
+
+.geo{
+    height: 50px;
+    width: 650px;
+    font-size: 30px;
+    margin-left: 11px;
+    border-radius: 5px;
+    color: red;
+    border: 4px solid pink;
+}
+
+.math{
+    height: 50px;
+    width: 650px;
+    font-size: 30px;
+    margin-left: 10px;
+    border-radius: 5px;
+    color: red;
+    border: 4px solid pink;
+}
+
+.pass{
+    height: 50px;
+    width: 650px;
+    font-size: 30px;
+    margin-left: 65px;
+    border-radius: 5px;
+    color: red;
+    border: 4px solid pink;
+}
+
+.bio{
+    height: 50px;
+    width: 650px;
+    font-size: 30px;
+    margin-left: 10px;
+    border-radius: 5px;
+    color: red;
+    border: 4px solid pink;
+}
+
+.numbers{
+    height: 50px;
+    width: 70px;
+    font-size: 20px;
+    margin-left: 80px;
+    border-radius: 5px;
+    color: red;
+    border: 4px solid pink;
+}
+
+.pink{
+    height: 50px;
+    width: 560px;
+    font-size: 30px;
+    margin-left: 10px;
+    border-radius: 5px;
+    color: red;
+    border: 4px solid pink;
+}
+
+.bottle {
+    height: 250px;
+    width: 650px;
+    font-size: 30px;
+    margin-left: 85px;
+    border-radius: 5px;
+    color: red;
+    border: 4px solid pink;
+}
+
+.state{
+    height: 50px;
+    width: 650px;
+    font-size: 30px;
+    margin-left: 120px;
+    border-radius: 5px;
+    color: red;
+    border: 4px solid pink;
+}
+
+.pen{
+    height: 50px;
+    width: 650px;
+    font-size: 30px;
+    margin-left: 65px;
+    border-radius: 5px;
+    color: red;
+    border: 4px solid pink;
+}
+
+.big{
+    margin-left: 70px;
+    color: rgb(137, 61, 10);
+  /*  border: 4px solid pink; */
+}
+
+.photo{
+    height: 50px;
+    width:450px;
+    font-size: 30px;
+    margin-left: 15px;
+    border-radius: 5px;
+    color: rgb(137, 61, 10);;
+    border: 4px solid pink; 
+}
+
+.horse{
+    font-size: 30px;
+    font-weight: 50px;
+}
+
+.apple{
+    font-size: 20px;
+}
+
+ /*.bulb{
+    height: 40px;
+    width: 250px;
+    font-size: 40px;
+    color: white;
+    background-color: rgb(215, 16, 16);
+    align-items: center;
+} */
+
+.table{
+    height: 40px;
+    font-size: 40px;
+}
+.table{
+    height: 40px;
+    width: 300px;
+    border: 2px solid black;
+    
+    background-color: rgb(226, 25, 82);
+}
+
+table:hover{
+    background-color: red;
+}
+

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)http://127.0.0.1:5500/.vscode/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index_files/style.css">
+    <title>Form in html </title>
+</head>
+<body>
+    
+    <div class="main">
+
+        <div class="content">
+    <center>
+                <h1>STUDENT REGISTRATION FORM</h1>
+
+
+            </center>
+<div class="paragraph">
+            <h2>First Name : <input type="text" class="sci" placeholder="Enter First Name"></h2>
+<br>
+            <h2>First Name : <input type="text" class="sci" placeholder="Enter Last Name"></h2>
+<br>
+        <h2>
+            
+            Gender :  
+            <label for="101">
+                <input type="radio" name="class" value="Male" class="size">Male 
+                </label>
+
+                <label for="102">
+                    <input type="radio" name="class" value="Male" class="size">Female 
+                    </label>
+    
+        </h2>
+
+        <br>
+
+        <h2>Age : <input type="number" placeholder="Enter your Age " class="his"></h2>
+
+        <br>
+
+        <h2>Date Of Birth : <input type="date" class="geo"></h2>
+
+        <br>
+
+        <h2>Email Address :<input type="email" class="math" placeholder="Enter your E-mail"> </h2>
+
+        <br>
+
+        <h2>Password : <input type="password" class="pass" placeholder="Enter your Password min 8 Characters"></h2>
+
+        <br>
+
+        <h2>Confirm Pass. : <input type="password" class="bio" placeholder="Confirm Password"></h2>
+
+        <br>
+
+        <h2>Phone N0. 
+            <label for="29">
+                <select name="45" class="numbers">
+                    <option value="+76">+76</option>
+                    <option value="+9">+32</option>
+                    <option value="+54">+54</option>
+                    <option value="+91">+91</option>
+                    <option value="+17">+17</option>
+                </select>
+<input type="number" placeholder="Enter Your Number" class="pink">
+
+            </label>
+            
+
+
+        </h2>
+
+        <br>
+
+        <h2>Address : <input type="text" class="bottle" placeholder="Enter Your Address..."></h2>
+
+        <br>
+        
+        <h2>State : 
+
+            <select name="102" class="state">
+
+                <option value="Bihar">Bihar</option>
+                <option value="Assam">Assam</option>
+                <option value="Sikkim">Sikkim</option>
+                <option value="Karala">Kerala</option>
+                <option value="Gujarat">Gujarat</option>
+                <option value="Punjab">Punjab</option>
+            </select>
+        </h2>
+
+        <br>
+        <h2>Pin Code : <input type="number" class="pen" placeholder="Enter your Pin Code "></h2>
+
+                    <br>
+
+                <h2>Hobbies: 
+                    <label for="345" class="big">
+                <input type="checkbox">Music
+            </label>
+
+            <label for="345" class="big">
+                <input type="checkbox">Movies
+            </label>
+
+            <label for="345" class="big">
+                <input type="checkbox">Sports
+            </label>
+
+            <label for="345" class="big">
+                <input type="checkbox">Travel
+            </label>
+
+        </h2>
+
+    <br>
+
+    <h2>Upload Photo- 
+       <input type="file" class="photo">
+
+    </h2>
+<br>
+<br>
+    <label for="456" class="horse">
+        <input type="checkbox"> I hereby declare that the above information provided is true and correct. 
+    </label>
+          <br>
+          <br>
+          <br>  
+<center>
+    <table class="table">
+
+<tbody><tr>
+    <td> Register </td>
+     <!-- <td>Reset</td>  -->
+</tr>
+</tbody></table>
+
+
+
+
+
+
+</center></div>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
